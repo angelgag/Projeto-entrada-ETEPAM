@@ -6,7 +6,7 @@ exports.up = function(knex) {
       table.string('cpf').notNullable();
       table.string('turma').notNullable();
       table.int('serie').notNullable();
-      table.date('dataNascimento').notNullable();
+      table.string('dataNascimento').notNullable();
   })
 };
 
